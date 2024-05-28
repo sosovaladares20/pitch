@@ -1,0 +1,91 @@
+body{
+    background-image: url("casamento1.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     margin: 0;
+     padding: 0;
+ 
+    
+}
+#Verificar{
+    margin-left: 100px;  
+    margin-top: 50px;
+    font-size: "LT Perfume Regular";
+    border-radius: 50px;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    background-color: #E6CEA3;
+    color: #5C4141;
+    animation-duration: 3s;
+    animation-name: Arrastar;
+    
+    filter: saturate(0%);
+
+}
+#Verificar:hover{
+    transition: 1s;
+    filter: saturate(100%);
+}
+input{
+    border: none;
+    border-radius: 20px;
+}
+.btnVerificar{
+    width: auto;
+    background-color:  #d6c198;
+    font-size: 20px;
+    height: 34px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    border: 1px black solid;
+   
+   
+   
+}
+.btnVerificar:hover{
+    transition: 1s;
+    background-color: #5C4141;
+  
+}
+h1{
+    margin-bottom: 200px;
+}
+#Icones {
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    align-items: center;
+ justify-content: space-evenly;
+}
+#Facebook{
+    width: 4%;
+    height: auto;
+}
+#Insta{
+    width: 4%;
+    height: auto;
+}
+#X{
+    
+    width: 3%;
+    height: auto;
+}
+@keyframes Arrastar {
+    from {
+      
+      margin-top: 100%;
+     
+    }
+  
+    to {
+        margin-left: 100px;  
+     
+    }
+  }
+
