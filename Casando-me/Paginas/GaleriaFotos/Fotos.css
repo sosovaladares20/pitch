@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "LT Perfume Regular";
+    background-color: #C8AE7D;
+}
+h1{
+    margin: 0;
+    padding: 0;
+
+}
+#Div01 {
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+    
+   
+    width: 100%;
+    height: 100px;
+  }
+#Voltar{
+  width: 7%;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+  background-color: #A0937D;
+    margin-right: 450px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    
+}
+#Voltar :hover{
+  background-color: black;
+  transition: 2s;
+}
+.Img{
+  filter: saturate(0%);
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center; 
+    height: 600px;
+  }
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    justify-content: center; 
+    
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: 1s;
+    overflow: hidden;
+    
+  }
+  .column img:hover{
+    filter: saturate(100%);
+    height: 300px;
+  }
+
+
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
