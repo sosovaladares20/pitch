@@ -118,6 +118,29 @@ body{
     width: 100%;
 }
 
+main{
+   padding: 20px;
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   padding-left: calc(82px + 60px);
+   background-color: #E6CEA3;
+ 
+}
+#Cabecalho{
+   display: flex;
+   background-color: #E6CEA3;
+   justify-content: center;
+   
+}
+
+#Cabecalho a  {
+   color: #000;
+   position: relative;
+   right: 55rem;
+   font-size: 30px;
+}
+
 @media only screen and (min-width: 1360px){
     .cd__main{
       max-width: 1280px;

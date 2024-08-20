@@ -11,6 +11,9 @@ body{
  
     
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
 #Verificar{
     margin-left: 100px;  
     margin-top: 50px;
@@ -62,6 +65,10 @@ h1{
     flex-direction: row;
     align-items: center;
  justify-content: space-evenly;
+ transition: 1s;
+}
+#Icones svg :hover{
+    background-color: red;
 }
 #Facebook{
     width: 4%;
